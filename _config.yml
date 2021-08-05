@@ -49,3 +49,5 @@ footer:
 #             fg: white
 # Build settings
 markdown: kramdown
+
+destination: ../../www/main
