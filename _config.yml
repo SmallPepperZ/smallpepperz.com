@@ -32,19 +32,20 @@ footer:
     enabled: true
     label: "Around the web"
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      button:
-        enabled: true
-        text: Visit
-        icon: fa-link
-        url: /
-        color: 
-          bg: "#23272A"
-          fg: white
+# defaults:
+#   -
+#     scope:
+#       path: ""
+#       type: "posts"
+#     values:
+#       buttons:
+#         -
+#           enabled: true
+#           text: Visit
+#           icon: fa-link
+#           url: /
+#           color: 
+#             bg: "#23272A"
+#             fg: white
 # Build settings
 markdown: kramdown

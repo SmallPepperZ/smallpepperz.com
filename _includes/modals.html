@@ -18,9 +18,11 @@
 						{% endif %}
                         {{ post.content }}
 						<br>
-						{% if post.button.enabled == true %}
-                        <button style="background-color: {{ post.button.color.bg }};color:{{ post.button.color.fg }};" type="button" class="btn btn-default" <button onclick="window.location.href='{{ post.button.url }}';"><i class="fa {{post.button.icon}}"></i> Visit</button>
+						{% for button in post.buttons %}
+						{% if button.enabled == true %}
+                        <button style="background-color: {{ button.color.bg }};color:{{ button.color.fg }};" type="button" class="btn btn-default" <button onclick="window.location.href='{{ button.url }}';"><i class="fa {{button.icon}}"></i> {{button.text}}</button>
 						{% endif %}
+						{%endfor%}
                     </div>
                 </div>
             </div>

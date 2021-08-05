@@ -7,13 +7,20 @@ img:
  show_modal: true
 modalID: modalSachiBot
 category: Design
-button:
-  enabled: true
-  url: https://gmail.com
-# button_url: https://gmail.com
+buttons:
+  -
+    enabled: true
+    url: https://github.com/SmallPepperZ/SachiBotPy
+    text: Github
+    icon: fa-github
+    color: 
+      bg: "#23272A"
+      fg: white
 ---
-Use this area of the page to describe your project. The icon above is part of a free icon set by [Flat Icons][flat-icons-link]. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
 
-In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!
+SachiBot is a discord bot that I made a while back to learn python. It doesn't have any documentation yet, but you can figure out how it works from `%help [command]` or reading the code at the linked github repository. 
+It can notably not play tic tac toe, but it can give you a perfectly captioned dog picture with `%dog`, or an ~~inferior~~ cat picture with `%cat`. 
 
-[flat-icons-link]: https://sellfy.com/p/8Q9P/jV3VZ/
+You can also check minecraft server statuses (I think) and get player skins and stuff with some command, probably.
+
+My personal favorite feature is the incredibly informative command `%areyouthere` which will tell you if the bot is offline or not. It is of great importance to mention this will return no message if the bot is indeed, offline.
