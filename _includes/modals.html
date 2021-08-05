@@ -14,11 +14,13 @@
                         <h2>{{ post.title }}</h2>
                         <hr class="star-primary">
 						{% if post.img.show_modal == true %}
-                        <img src="{{ site.baseurl }}/{{ post.img }}" class="img-responsive img-centered" alt="">
+                        <img src="{{ site.baseurl }}/{{ post.img.path }}" class="img-responsive img-centered" alt="">
 						{% endif %}
                         {{ post.content }}
 						<br>
-                        <button type="button" class="btn btn-default" <button onclick="window.location.href='https://example.com';"><i class="fa fa-link"></i> Visit</button>
+						{% if post.button.enabled == true %}
+                        <button style="background-color: {{ post.button.color.bg }};color:{{ post.button.color.fg }};" type="button" class="btn btn-default" <button onclick="window.location.href='{{ post.button.url }}';"><i class="fa {{post.button.icon}}"></i> Visit</button>
+						{% endif %}
                     </div>
                 </div>
             </div>
