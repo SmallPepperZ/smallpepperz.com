@@ -23,6 +23,10 @@ github_username:  SmallPepperZ
 #skype_username: echo123
 #linkedin_url: https://
 
+collections:
+  error_pages:
+    output: true
+
 footer:
   about: 
     enabled: false
