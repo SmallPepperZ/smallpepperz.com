@@ -12,7 +12,15 @@ buttons:
     enabled: true
     url: https://github.com/SmallPepperZ/SachiBotPy
     text: Github
-    icon: fa-github
+    icon: "fab fa-github"
+    color: 
+      bg: "#23272A"
+      fg: white
+  -
+    enabled: true
+    url: https://discord.com/users/796509133985153025
+    text: Discord
+    icon: "fab fa-discord"
     color: 
       bg: "#23272A"
       fg: white
