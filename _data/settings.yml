@@ -1,18 +1,17 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross
+title: SmallPepperZ
 logo: 
 author: themefisher
-description: this is meta description
-email: steve.fruits@email.com
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
+description: SmallPepperZ's Website
+email: me@smallpepperz.com
+discord: smallpepperz#0681
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
 - {name: About, link: '/about'}
-- {name: Blog, link: '/blog'}
+# - {name: Blog, link: '/blog'}
 - {name: Portfolio, link: '/portfolio'}
 - {name: Contact, link: '/contact'}
 
@@ -38,13 +37,13 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: Hi! I’m <br> SmallPepperZ <br> Professional Human
 
-social:
-- {icon: "ti-facebook", link: "#"}
-- {icon: "ti-instagram", link: "#"}
-- {icon: "ti-dribbble", link: "#"}
-- {icon: "ti-twitter", link: "#"}
+# social:
+# - {icon: "ti-facebook", link: "#"}
+# - {icon: "ti-instagram", link: "#"}
+# - {icon: "ti-dribbble", link: "#"}
+# - {icon: "ti-twitter", link: "#"}
 
 
 #-------------------------------
@@ -52,10 +51,10 @@ social:
 
 # About Section
 blurb:
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  Professional at spending hours on a 5 minute issue
 
 blurb-btn-link: '/about'
-blurb-btn-name: know more
+blurb-btn-name: See more
 
 
 # About Page
@@ -75,30 +74,16 @@ work-process:
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 
-# My Team Section
-team:
-  - title : "Jack Schenziwe"
-    image : "assets/images/team/member-1.png"
-    designation : "Project Manager"
-    
-  - title : "Julias Carlie"
-    image : "assets/images/team/member-2.png"
-    designation : "Web Developer"
-    
-  - title : "John Doe"
-    image : "assets/images/team/member-3.png"
-    designation : "Designer"
-
 
 #-------------------------------
 # Skills Section
 
 skills-title: Skills
 skills:
-- {name: Web Design, color: '#fdb157', value: '90%'}
-- {name: Logo Design, color: '#9473e6', value: '60%'}
-- {name: After Effects, color: '#bdecf6', value: '80%'}
-- {name: Web App, color: '#ffbcaa', value: '70%'}
+- {name: Python, color: '#306998', value: '60%'}
+- {name: Borking Git Repositories, color: '#f1502f', value: '80%'}
+- {name: Using Discord, color: '#738adb', value: '90%'}
+- {name: Github Skills, color: '#1B1B1B', value: '70%'}
 
 
 #-------------------------------
@@ -172,15 +157,15 @@ portfolio-home-items:
 # Portfolio Page
 portfolio-label:
 - {
-    title : "UI/UX Design",
-    type : "design"
+    title : "Python",
+    type : "python"
   }
 - {
-    title : "BRANDING",
-    type : "branding"
+    title : "Java",
+    type : "java"
   }
 - {
-    title : "ILLUSTRATION",
+    title : "Web Dev",
     type : "illustration"
   }
 
@@ -294,3 +279,4 @@ client-slider-items:
 
 contact-title: Contact Info
 contact-email: steve.fruits@email.com
+formspree-id: xnqwaerq

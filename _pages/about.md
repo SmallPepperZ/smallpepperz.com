@@ -1,8 +1,8 @@
 ---
 layout: about
 title: About Me
-author: Johnathan Smith
-image: assets/images/about/author.jpg
+author: SmallPepperZ
+image: assets/images/profile.png
 signature: assets/images/about/signature.png
 ---
 

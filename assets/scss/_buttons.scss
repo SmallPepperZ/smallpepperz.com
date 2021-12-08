@@ -36,15 +36,14 @@
   color: $white;
 
   &:active {
-    background: lighten($color: $primary-color, $amount: 10) !important;
+    box-shadow: none;
   }
 
   &:hover {
     background: lighten($color: $primary-color, $amount: 10);
   }
 
-  &.focus,
-  &.active {
+  &.focus {
     background: lighten($color: $primary-color, $amount: 10) !important;
     box-shadow: none !important;
   }

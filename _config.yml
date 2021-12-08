@@ -1,5 +1,5 @@
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://smallpepperz.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
@@ -11,15 +11,14 @@ compress_html:
   comments: all
   startings: [html, head, body]
 
-# Pages Path
-defaults:
-  - scope:
-      path: '_pages'
-    values:
-      permalink: /:basename:output_ext
-
-include:
-  - _pages
+collections:
+  pages:
+    output: true
+    permalink: /:path
+  projects:
+    output: true
+    permalink: /projects/:path
+    layout: default
 
 sass:
   sass_dir: assets/scss
