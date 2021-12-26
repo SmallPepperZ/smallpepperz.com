@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Portfolio
+title: Projects
 ---
 <!-- portfolio -->
 <section class="section">
@@ -21,7 +21,7 @@ title: Portfolio
     </div>
     <div class="row shuffle-wrapper">
       {% for page in site.projects %}
-      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[{% for portfolio in page.portfolio-type %}{% if forloop.first == true %}{% else %},{% endif %}&quot;{{ portfolio.type }}&quot;{% endfor %}]">
+      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[]">
         <div class="position-relative rounded hover-wrapper">
           <img src="{{ site.baseurl }}/{{ page.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           <div class="hover-overlay">
