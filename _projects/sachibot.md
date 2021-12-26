@@ -6,13 +6,9 @@ spotlight: true
 layout: project
 buttons:
   -
-    enabled: true
     url: https://github.com/SmallPepperZ/SachiBotPy
     text: Github
-    icon: "fab fa-github"
-    color:
-      bg: "#23272A"
-      fg: white
+
   # -
   #   enabled: true
   #   url: https://discord.com/users/796509133985153025
