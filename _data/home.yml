@@ -1,69 +1,35 @@
 navbar_entries:
-  - title: about
+  - title: About
     url: about
 
-  - title: blog
+  - title: Blog
     url: blog
 
-  - title: website
-    url: https://www.abhinav.co
 
 project_entries:
-  - title: Project 1
-    url: overview-post
-    desc: This is an example project, configured in _data/home.yml
 
-  - title: Project 2
-    url: overview-post
-    desc: Projects are shown in card layout
 
-  - title: Project 3
-    url: overview-post
-    desc: You can control visibility from _config.yml file
-
-  - title: Project 4
-    url: overview-post
-    desc: This project uses highlight markup, configured in _data/home.yml
-    highlight: WIP
-
-  - title: Project 5
-    url: overview-post
-    desc: Moonwalk also has horizontal list (used in header and footer)
-    highlight: WIP
-
-  - title: Project 6
-    url: overview-post
-    desc: It also has a scalable vertical list (in case you need it)
+  - title: Github Explore
+    url: https://github.com/github/explore
+    desc: I've added a few topics to Github explore. Not really my project, but I need to fill this site with something
 
 old_project_entries:
-  - title: Soopr
-    url: https://www.soopr.co
-    desc: Delight your readers - add beautiful share and like buttons easily to your websites 
-    highlight: NEW
+  - title: SachiBot
+    url: https://github.com/smallpepperz/SachiBotPy
+    desc: This is a discord bot I made, it doesn't serve a particular purpose, it was just something I used to learn with
 
-  - title: Cookie
-    url: https://github.com/abhinavs/cookie
-    desc: An open source landing website with supporting pages and integrated blog
-
-  - title: Moonwalk
-    url: https://github.com/abhinavs/moonwalk
-    desc: A fast and minimalist Jekyll blog theme with clean dark mode
-
-  - title: Humangous
-    url: https://www.humangous.co
-    desc: The better people know you, the better they collaborate
+  - title: Magic Minecraft Mod Modernizer
+    url: https://github.com/SmallPepperZ/MagicMinecraftModModernizer
+    desc: an old project for managing minecraft mods, abandoned for @Senth's mod manager
 
 footer_entries:
-  - title: abhinav's homepage
-    url: https://www.abhinav.co
+  - title: Email
+    url: mailto:mail@smallpepperz.com
 
-  - title: twitter
-    url: https://twitter.com/abhinav
+  - title: Github
+    url: https://github.com/smallpepperz
 
-  - title: github
-    url: https://github.com/abhinavs
-
-  - title: feed
+  - title: Feed
     url: feed.xml
 
 misc_entries:
