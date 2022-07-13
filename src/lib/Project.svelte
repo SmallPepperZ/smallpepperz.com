@@ -7,14 +7,20 @@
     import type { Project, ProjectLink, ProjectTag } from "../consts";
     
     export let project:Project;
-    let name:string;
-    let description:string;
+    let name:string = "Unknown";
+    let description:string = "";
     let finalTags :ProjectTag[]  = []
     let finalLinks:ProjectLink[] = []
 
 
 
     function getTag(tagName:string):ProjectTag {
+        if (tagName == undefined) {
+            return {
+                text: "Unknown",
+                color: "#aaa"
+            }
+        }
         let tag = tagName.toLowerCase()
         if (tag in tagStyles) {
             return tagStyles[tag]
@@ -25,8 +31,8 @@
             }
         }
     }
-    
-    getData(project.repo).then(data => {
+    onMount(async () => {
+		let data = await getData(project.repo)
         data = data.value
         if (data.owner.login == "SmallPepperZ") {
             name = project.name ?? data.name ?? ""
@@ -34,14 +40,19 @@
             name = project.name ?? data.full_name ?? ""
         }
         description = project.description ?? data.description ?? ""
-        finalTags = [data.language].concat(project.tags).map(tag => getTag(tag))
+        if (project.tags ?? [].length > 0) {
+            finalTags = [data.language].concat(project.tags).map(tag => getTag(tag))
+        } else {
+            finalTags = [getTag(data.language)]
+        }
+        
         finalLinks= [{
             url: data.html_url,
             text: "Github",
             icon: "fa-brands fa-github",
             class: "primary"
         }].concat(project.links ?? [])
-    })
+	});
     async function getData(repo:string){
 
         var ttl = 1*(1000*60*60); // 1 hour
