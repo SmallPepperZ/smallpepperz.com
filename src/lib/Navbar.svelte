@@ -9,6 +9,10 @@
         {
             url: "https://github.com/SmallPepperZ",
             icon: "fa-brands fa-github"
+        },
+        {
+            url: "mailto:mail@smallpepperz.com",
+            icon: "fa-solid fa-envelope"
         }
     ]
 </script>
