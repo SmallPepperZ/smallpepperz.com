@@ -3,6 +3,10 @@
     import { projects } from '../consts'
 </script>
 
+<svelte:head>
+    <title>Projects</title>
+</svelte:head>
+
 <div class="container">
     <div class="row pt-3">
         <h2>Projects</h2>
