@@ -37,6 +37,10 @@ export const tagStyles:Tags = {
         text: "Go",
         color: "#00ADD8"
     },
+    svelte: {
+        text: "Svelte",
+        color: "#FF3C00"
+    },
 }
 
 export const projects:Projects={
@@ -44,6 +48,10 @@ export const projects:Projects={
         {
             repo: "smallpepperz/leetcode", 
             description: "My LeetCode solutions",
+        },
+        {
+            repo: "smallpepperz/smallpepperz.com", 
+            description: "This site. It's been redone 4 times now, this time in Svelte",
         }
     ],
     archived:[
@@ -61,6 +69,12 @@ export const projects:Projects={
             repo: "minecrafthopper/minecrafthopper",
             description: "A community-run Minecraft knowledgebase",
             links: [
+                {
+                    text: "Visit",
+                    url: "https://minecrafthopper.net",
+                    icon: "fa-solid fa-globe",
+                    class: "secondary"
+                },
                 {
                     text: "My PRs",
                     url: "https://github.com/MinecraftHopper/MinecraftHopper/pulls?q=is%3Apr+author%3ASmallPepperZ",

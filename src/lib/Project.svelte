@@ -81,7 +81,7 @@
             <h3 class="card-title">{name}</h3>
             <p class="card-text">{@html description}</p>
             {#each finalLinks as link}
-            <a href="{link.url}" class="mt-auto btn btn-{link.class}"><i class="{link.icon}"></i> {link.text}</a>{' '}
+            <a href="{link.url}"target="_blank" rel="noopener noreferrer" class="mt-auto btn btn-{link.class}"><i class="{link.icon}"></i> {link.text}</a>{' '}
             {/each}
         </div>
         <div class="card-footer">
